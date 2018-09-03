@@ -1,6 +1,10 @@
 # EntropyRDM
 
+##Description
+
 Just a simple random deathmatch gamemode for Garry's Mod
+
+## Config Editing
 
 ### Adding events variances
 
