@@ -18,7 +18,7 @@ end )
 --Death notice drawer
 gameevent.Listen( "entity_killed" )
 hook.Add( "entity_killed", "entity_killed_hud_drawer", function(data)
-	if data.entindex_attacker and data.entindex_killed then
+	if data.entindex_attacker and data.entindex_killed and Entity(data.entindex_attacker):IsPlayer() then
 		GAMEMODE:AddDeathNotice( Entity(data.entindex_attacker):GetName() , nil, data.entindex_inflictor, Entity(data.entindex_killed):GetName() )
 	elseif data.entindex_killed then
 		GAMEMODE:AddDeathNotice( nil , nil, data.entindex_inflictor, Entity(data.entindex_killed):GetName() )
