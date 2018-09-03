@@ -1,6 +1,6 @@
 # EntropyRDM
 
-##Description
+## Description
 
 Just a simple random deathmatch gamemode for Garry's Mod
 
