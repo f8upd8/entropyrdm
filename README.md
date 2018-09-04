@@ -8,6 +8,8 @@ Just a simple random deathmatch gamemode for Garry's Mod
 
 ### Adding events variances
 
+That's how you add event variance of type "boss"
+
 FROM EVENTS.TXT (UNMODIFIED):
 
 		"demolitioner": {
